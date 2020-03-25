@@ -6,6 +6,6 @@ int main(){
   while(1){
     PWM1.period(0.5);
     PWM1 = Ain;
-    wait(0.01);
+    wait(0.1);
   }
 }
